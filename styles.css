@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url(./fonts/Roboto/Roboto-BoldItalic.ttf) format(true type);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1{
+    color: white;
+}
+
+
+body{
+    background-color: rgb(9, 4, 73);
+}
+
+
+.relative{
+    position: relative;
+    left: 420px;
+    bottom: 70px;
+    font-size: 50px;
+    color: white;
+
+}
+
+
+.relative{
+    font-family: Roboto-BoldItalic;
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+}
+
+legend{
+    color: white;
+    font-size: 20px;
+}
+
+
+section{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    bottom: 10px;
+}
+
+
+a{
+    color: white;
+    position: relative;
+    top: 70px;
+}
+
+@media screen and (max-width: 640px) {
+    .red{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1200px) {
+    .red{
+        background-color:blueviolet;
+    }
+}
+
+.red{
+    background-color: white;
+    color: black;
+    height: 30px;
+}
