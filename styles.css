@@ -8,8 +8,18 @@
 
 h1{
     color: white;
+    top: 120px;
 }
 
+section{
+    color: white;
+    font-size: 25px;
+    top: 400px;
+}
+
+p{
+    left: 50px;
+}
 
 body{
     background-color: rgb(9, 4, 73);
@@ -48,16 +58,35 @@ legend{
 .container{
     color: white;
     font-size: 20px;
+    display: flex;
+   
+    
 }
 
-.item{
-    height: 40px;
+.clothes{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.accessory{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.others{
+    width: 200px;
+    height: 100px;
+    text-align: center;
 }
 
 
 a{
     color: white;
     position: relative;
-    top: 80px;
+    top: 200px;
+    display: flex;
+    height: 70px;
 }
 
