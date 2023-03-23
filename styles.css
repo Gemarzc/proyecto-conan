@@ -5,10 +5,20 @@
     font-style: normal;
 }
 
+header{
+    background-color: black;
+    color: rgb(16, 8, 119);
+    text-align: center;
+}
 
 h1{
     color: white;
-    top: 120px;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
 }
 
 section{
@@ -85,8 +95,8 @@ legend{
 a{
     color: white;
     position: relative;
-    top: 200px;
+    top: 220px;
     display: flex;
-    height: 70px;
+    height: 40px;
 }
 
