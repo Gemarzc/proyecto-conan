@@ -6,25 +6,31 @@
 }
 
 header{
-    background-color: black;
-    color: rgb(16, 8, 119);
-    text-align: center;
+   
+    color: black;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 h1{
     color: white;
     text-align: center;
+  
 }
 
 h2{
     color: white;
     font-size: 30px;
+    margin: 10px;
 }
 
-section{
+p{
     color: white;
     font-size: 25px;
-    top: 400px;
+    margin: 20px;
 }
 
 p{
@@ -33,6 +39,9 @@ p{
 
 body{
     background-color: rgb(9, 4, 73);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -42,15 +51,11 @@ body{
     bottom: 70px;
     font-size: 50px;
     color: white;
-
-}
-
-
-.relative{
     font-family: Roboto-BoldItalic;
     font-weight: normal;
     font-style: italic;
     color: white;
+    display: block;
 }
 
 
@@ -69,8 +74,10 @@ legend{
     color: white;
     font-size: 20px;
     display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding: 10px;
    
-    
 }
 
 .clothes{
@@ -93,10 +100,14 @@ legend{
 
 
 a{
-    color: white;
+    color: darkgray;
     position: relative;
-    top: 220px;
+    top: 200px;
     display: flex;
+    margin-bottom: 30px;
+    margin-left: 110px;
     height: 40px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
