@@ -27,19 +27,24 @@
         <button type="search">Buscar🔎</button>
     </fieldset>
 
-<a href="catálogo">
     <h1>Todos los productos</h1>
-</a>
-
-<h2>Categorías</h2>
 
 
-    <p>Ropa</p>
-    <p>Accesorios</p>
-    <p>Otros</p>
+<nav class="navbar">
+    <label class="navbar-toggle" id="products" for="products"></label>
+    <a href="#products" class="catálogo">Catálogo</a>
+    
+    <ul class="main-nav" id="js-products">
+        <li><a href="#products" class="nav-links">Ropa</a>
+        <li><a href="#products" class="nav-links">Accesorios</a>
+        <li><a href="#products" class="nav-links">Otros</a>
+        </li>
 
+    </ul>
 
-<section id="catálogo">
+</nav>
+
+<section id="products">
  <div class="container">
      <div class="clothes"><img src="./images/pajarita-voz.jpg" alt="ropa" width="150" height="140">Pajarita Moduladora de Voz</div>
      <div class="clothes"><img src="./images/zapas.jpg" alt="ropa" width="150" height="140">Zapatillas Alta Intensidad</div>
@@ -63,7 +68,7 @@
 </section>
 
 <footer>
-       <a href="tel:+677249445">Si necesita ayuda contáctenos📞</a>
+    Si necesita ayuda contáctenos📞
 </footer>
 
 </body>
