@@ -129,3 +129,10 @@ h1{
     text-align: center;
 }
 
+footer{
+    padding: 20px;
+    margin-top: 15%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
