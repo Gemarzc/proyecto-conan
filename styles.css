@@ -1,80 +1,33 @@
 @font-face {
-    font-family: Roboto-BoldItalic;
+    font-family: 'Roboto-BoldItalic.ttf';
     src: url(./fonts/Roboto/Roboto-BoldItalic.ttf) format(true type);
     font-weight: normal;
-    font-style: normal;
-}
-
-header{
-   
-    color: black;
-    text-align: end;
-    display: flex;
-    flex-direction: column;
-}
-
-
-h1{
-    color: white;
-    text-align: center;
-  
-}
-
-.main-nav{
-    list-style-type: none;
-    padding: 20px;
-    height: 30px;
-}
-
-.navbar-toggle{
-    position: relative;
-    margin: 10px;
-}
-
-.nav-links{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    top: 40px;
-}
-
-
-p{
-    color: white;
-    font-size: 25px;
-    margin: 20px;
-}
-
-p{
-    left: 50px;
+    font-style: italic;
 }
 
 body{
     background-color: rgb(9, 4, 73);
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+   
+    
 }
+
 
 
 .relative{
     position: relative;
-    left: 420px;
-    bottom: 70px;
-    font-size: 50px;
-    color: white;
-    font-family: Roboto-BoldItalic;
-    font-weight: normal;
-    font-style: italic;
-    color: white;
-    display: block;
+    left: 450px;
+    right: 5px;
+    text-align: center;
+    bottom: 50px;
+    font-size: 40px;
+    width: 384px;
 }
 
-
-input{
-   
-    width: 200px;
-    
+h2{
+    font-family: 'Roboto-BoldItalic';
+    color: white;
 }
 
 legend{
@@ -82,11 +35,70 @@ legend{
     font-size: 20px;
 }
 
+input{
+   
+    width: 200px;
+    border-color: black;
+    border: 5px;
+    height: 20px;
+}
+
 button{
     cursor: pointer;
     color: white;
     font-size: 15px;
+    position: relative;
+    top: 2px;
     background-color: rgb(20, 14, 101)
+}
+
+h1{
+    color: white;
+    text-align: center;
+  
+}
+
+.navbar-toggle{
+    position: relative;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.Catálogo{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    }
+
+.products{
+    display: inline-block;
+    margin: 20px;
+}
+
+#checkproducts {
+    display: none;
+    
+}
+
+#checkproducts:checked +ul.main-nav {
+    display: block;
+}
+
+
+.main-nav{
+    list-style-type: none;
+    padding: 20px;
+    height: 30px;
+    display: none;
+}
+
+.nav-links{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    top: 40px;
 }
 
 .container{
@@ -117,19 +129,3 @@ button{
     text-align: center;
 }
 
-
-.catálogo{
-    color: white;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-decoration: none;
-    cursor: pointer;
-    }
-
-
-
-    
