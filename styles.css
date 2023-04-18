@@ -8,12 +8,24 @@
 body{
     background-color: rgb(9, 4, 73);
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
-   
-    
+    min-width: 315px;
 }
 
 
+@media screen and (min-width: 315px) and (max-width: 768px) {
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 25px;
+        width: 100px;
+    }
+}
 
 .relative{
     position: relative;
@@ -49,7 +61,8 @@ button{
     font-size: 15px;
     position: relative;
     top: 2px;
-    background-color: rgb(20, 14, 101)
+    background-color: rgb(20, 14, 101);
+    white-space: nowrap;
 }
 
 h1{
@@ -105,9 +118,9 @@ h1{
     color: white;
     font-size: 20px;
     display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
    
 }
 
@@ -125,13 +138,13 @@ h1{
 
 .others{
     width: 200px;
-    height: 100px;
+    height: 200px;
     text-align: center;
 }
 
 footer{
-    padding: 20px;
-    margin-top: 15%;
+    padding: 10px;
+    margin-top: 10%;
     text-align: center;
     color: white;
     font-size: 15px;
