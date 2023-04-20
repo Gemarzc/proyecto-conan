@@ -26,6 +26,12 @@ body{
     }
 }
 
+@media screen and (max-width: 768px) {
+    .inicio{
+        display: none;
+    }
+}
+
 .inicio{
     text-decoration: none;
     color: rgba(244, 235, 235, 0.778);
